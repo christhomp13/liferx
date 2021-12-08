@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Accordion from 'react-bootstrap/Accordion'
 import { useHistory } from 'react-router-dom';
-import dateFormat, { masks } from "dateformat";
+import dateFormat  from "dateformat";
 
 const DailyGame = (props) => {
 

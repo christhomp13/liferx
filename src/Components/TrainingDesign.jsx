@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import { useHistory } from 'react-router-dom';
-import dateFormat, { masks } from "dateformat";
+import dateFormat from "dateformat";
 
 const TrainingDesign = (props) => {
 
